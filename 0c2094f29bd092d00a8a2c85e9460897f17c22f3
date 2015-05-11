@@ -1,0 +1,8 @@
+Code-Review+2: Anthony Michon <anthony.michon@eurogiciel.fr>
+Workflow+1: Anthony Michon <anthony.michon@eurogiciel.fr>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Mon, 11 May 2015 13:11:09 +0000
+Reviewed-on: https://review.openstack.org/181876
+Project: stackforge/python-cerberusclient
+Branch: refs/heads/master
