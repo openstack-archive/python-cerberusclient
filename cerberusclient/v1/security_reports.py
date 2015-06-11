@@ -36,11 +36,11 @@ class SecurityReportManager(v1_base.BaseManager):
     def list(self):
         return self._list(self.url, 'security_reports')
 
-    def get(self, report_id):
+    def get(self, report_uuid):
 
-        return self._get(self.url + '/{id}'.format(id=report_id))
+        return self._get(self.url + '/{uuid}'.format(uuid=report_uuid))
 
-    def put(self, report_id, ticket_id):
-        return self._update(self.url + '/{id}'.format(id=report_id) +
+    def put(self, report_uuid, ticket_id):
+        return self._update(self.url + '/{uuid}'.format(uuid=report_uuid) +
                             '/tickets/' + '{ticket_id}'.format(
             ticket_id=ticket_id))
